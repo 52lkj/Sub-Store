@@ -25,6 +25,11 @@ SUB_STORE_FRONTEND_BACKEND_PATH需要自己设置
 ### 第一步：准备环境
 如果你还没有安装 Docker 和 Docker Compose，建议先安装。
 
+```
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+```
+
+
 ### 第二步：启动容器
 
 在服务器上创建一个文件夹（如 sub-store）。
@@ -42,3 +47,18 @@ https://a.com?api=https://a.com/你的私密路径
 
 具体到图片中的例子：
 https://a.com?api=https://a.com/cD7wiTGitLyoBdEguanFWmqCpHKwhLQh4opXfFhFCEpmY9K7YnPgFu9e2iiUoty2
+
+使用一段式 Shell 脚本（极致一键）
+如果你追求“一行命令搞定”，可以写一个简单的脚本 deploy.sh 放在 GitHub：
+
+```
+curl -sSL https://raw.githubusercontent.com/.../deploy.sh | bash
+mkdir -p sub-store/data
+curl -o sub-store/docker-compose.yml https://raw.githubusercontent.com/你的路径/docker-compose.yml
+cd sub-store
+docker compose up -d
+echo "部署完成！"
+```
+
+
+
