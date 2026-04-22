@@ -9,7 +9,7 @@ services:
       SUB_STORE_BACKEND_API_PORT: 3001
       SUB_STORE_BACKEND_MERGE: true
       # 这是你的私密 API 路径，用于增强安全性
-      SUB_STORE_FRONTEND_BACKEND_PATH: /cD7wiTGitLyoBdEguanFWmqCpHKwhLQh4opXfFhFCEpmY9K7YnPgFu9e2iiUoty21qaz2wsx3edc
+      SUB_STORE_FRONTEND_BACKEND_PATH: /cD7wiTGitLyoBdEguanFWmqCpHKwhLQh4opXfFhFCEpmY9K7YnPgFu9e2iiUoty21qaz2wsx3edc123456
       # HTTP-META 相关设置，通常保持默认
       PORT: 9876
       HOST: 127.0.0.1
