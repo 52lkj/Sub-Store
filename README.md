@@ -79,5 +79,6 @@ echo "你的 API 路径请参考 docker-compose.yml 中的环境变量。"
 echo "------------------------------------------------"
 ```
 
-
+[Sub-Store Docker 部署教程
+](https://blog.52131488.xyz/2026/04/sub-store-docker-bu-shu-jiao-cheng)
 
