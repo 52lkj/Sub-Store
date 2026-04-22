@@ -50,8 +50,12 @@ https://a.com?api=https://a.com/cD7wiTGitLyoBdEguanFWmqCpHKwhLQh4opXfFhFCEpmY9K7
 
 ## 使用一段式 Shell 脚本
 
+```
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+
 curl -sSL https://raw.githubusercontent.com/52lkj/Sub-Store/master/deploy.sh | bash
+```
+
 
 ```
 #!/bin/bash
